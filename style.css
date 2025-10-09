@@ -1,0 +1,37 @@
+nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+* {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 7px;
+    margin-left: 7%;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.nav-btn a:hover {
+    color: rgb(200, 126, 0);
+    transition: 0.3s;
+}
+.lead-text {
+    color: rgb(226, 145, 5);
+    font-size: 55px;
+}
