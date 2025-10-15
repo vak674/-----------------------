@@ -49,3 +49,80 @@ nav {
     aspect-ratio: 1/1;
     box-shadow: 0 4px 8px rgba(103, 78, 27, 0.1);
 }
+.btn-all {
+    background-color: rgb(226, 145, 5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(103, 78, 27, 0.1);
+}
+.btn-all:hover, .btn-all:focus {
+    background-color: rgb(200, 126, 0);
+    color: white;
+    box-shadow: 0 4px 2px rgba(183, 135, 40, 0.3);
+    transform: translateY(-2px);
+}
+.btn-menu {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid rgb(226, 145, 5);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(103, 78, 27, 0.1);
+}
+.btn-menu:hover, .btn-menu:focus {
+    box-shadow: 0 3px 2px rgba(183, 135, 40, 0.3);
+    transform: translateY(-2px);
+}
+
+.floating {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #fafafa, #f0f0f5);
+}
+
+.floating .images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.floating .img-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.floating .center {
+  transform: translateY(20px);
+}
+
+.floating img {
+  width: 100%;
+  display: block;
+}
+
+.floating .img-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.floating .center:hover{
+    transform: translateY(5px);
+}
+
+.floating .caption {
+  color: #555;
+  font-size: 1rem;
+}
