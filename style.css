@@ -35,3 +35,16 @@ nav {
     color: rgb(226, 145, 5);
     font-size: 55px;
 }
+.hero-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #DD940E;
+    /* overflow: hidden; */
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    min-height: 400px;
+    box-shadow: 0 4px 8px rgba(103, 78, 27, 0.1);
+}
