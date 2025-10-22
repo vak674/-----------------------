@@ -162,7 +162,7 @@ nav {
 }
 .info-section {
     display: flex;
-    height: 190px;
+    height: 170px;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
@@ -174,10 +174,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px 0;
 }
-.info-card h3 {
-    font-size: clamp(14px, 10vw, 24px);
-}
+/* .info-card h3 { */
+    /* font-size: clamp(14px, 10vw, 32px); */
+/* } */
 .info-card p {
-    font-size: clamp(10px, 6vw, 18px);
+    font-size: clamp(8px, 3vw, 24px);
 }
