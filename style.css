@@ -126,3 +126,58 @@ nav {
   color: #555;
   font-size: 1rem;
 }
+.three-images .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* space between images */
+}
+
+.three-images .img-card img {
+  width: 100%;
+  height: 250px; /* static height */
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+/* Side images */
+.three-images .img-card {
+  flex: 1;
+}
+
+/* Center image is 15% wider */
+.three-images .img-card.center {
+  flex: 1.15;
+}
+
+/* Optional hover animation */
+.three-images .img-card img:hover {
+  transform: scale(1.05);
+}
+.info-icon {
+    height: clamp(100px, 40vh ,300px);
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.info-section {
+    display: flex;
+    height: 190px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #DA9413;
+    margin-top: 80px;
+    color: white;
+}
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-card h3 {
+    font-size: clamp(14px, 10vw, 24px);
+}
+.info-card p {
+    font-size: clamp(10px, 6vw, 18px);
+}
